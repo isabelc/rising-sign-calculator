@@ -393,9 +393,10 @@ sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_mi
 
 	public function widget( $args, $instance ) {
 
-		extract( $args );
-		$title = apply_filters('widget_title', $instance['title']);
-		echo $before_widget; ?>
+		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Rising Sign Calculator', 'rsc' ) : $instance['title'], $instance, $this->id_base );
+
+		echo $args['before_widget'];
+		?>
 <div id="rscform"><form id="orderform" type="post"><?php if ( ! empty( $title ) ) echo '<h3 class="widget-title">'. $title . '</h3>'; ?>
 <div id="ajaxbirthdt"><p><label><?php _e('Birth Date:', 'rsc'); ?> </label> <select id="month" class="isa" name="month" required><option value=""><?php _e('Month:', 'rsc'); ?></option><option value="1"><?php _e('January', 'rsc'); ?></option><option value="2"><?php _e('February', 'rsc'); ?></option><option value="3"><?php _e('March', 'rsc'); ?></option><option value="4"><?php _e('April', 'rsc'); ?></option><option value="5"><?php _e('May', 'rsc'); ?></option><option value="6"><?php _e('June', 'rsc'); ?></option><option value="7"><?php _e('July', 'rsc'); ?></option><option value="8"><?php _e('August', 'rsc'); ?></option><option value="9"><?php _e('September', 'rsc'); ?></option><option value="10"><?php _e('October', 'rsc'); ?></option><option value="11"><?php _e('November', 'rsc'); ?></option><option value="12"><?php _e('December', 'rsc'); ?></option></select> <select id="day" class="isa" name="day" required><option value=""><?php _e('Day:', 'rsc'); ?></option>
 
@@ -471,7 +472,7 @@ foreach ($form_minutes as $form_minute => $locale_form_minute) { ?>
 	<p class="centr"><a class="button" href="<?php echo $this->current_url(); ?>"><?php _e('Back To Rising Sign Calculator', 'rsc'); ?></a></p>
 </div>
 
-<?php echo $after_widget;
+<?php echo $args['after_widget'];
 	}// end widget
 
 	/**
