@@ -1,0 +1,1433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rising Sign Calculator\n"
+"POT-Creation-Date: 2014-01-22 14:27-0500\n"
+"PO-Revision-Date: 2014-01-22 14:28-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: C:\\Users\\Isabel\\Documents\\My Web Sites\\chema\\wp-"
+"content\\plugins\\rising-sign-calculator\n"
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:80
+msgid "Rising Sign Calculator License Options"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:82
+msgid ""
+"A plugin license will grant you access to support and updates. If you wish "
+"to update to the latest version of Rising Sign Calculator or get support for "
+"this plugin, you need an active license."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:83
+msgid "Purchase a license"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:93
+msgid "License Key"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:97
+msgid "Enter your license key"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:103
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:121
+msgid "Activate License"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:108
+msgid "Status: active  "
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:111
+msgid "Deactivate License"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:113
+msgid "Check Status"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:117
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:135
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:414
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:14
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:498
+msgid "Rising Sign Calculator"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:137
+msgid "Rising Sign Calculator License"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:264
+msgid "Rising Sign Calculator - Custom Interpretations"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:286
+msgid "Enter your custom interpretation for each Rising sign."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:295
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:125
+msgid "Aries"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:300
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:130
+msgid "Taurus"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:305
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:135
+msgid "Gemini"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:310
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:140
+msgid "Cancer"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:315
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:145
+msgid "Leo"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:320
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:150
+msgid "Virgo"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:325
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:155
+msgid "Libra"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:330
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:160
+msgid "Scorpio"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:335
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:165
+msgid "Sagittarius"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:340
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:170
+msgid "Capricorn"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:344
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:175
+msgid "Aquarius"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:349
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:180
+msgid "Pisces"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/rising-sign-calculator.php:358
+#, php-format
+msgid "Ascendant in %s:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/ajax-tz-offset.php:65
+msgid "calculating..."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:15
+msgid "Let visitors calculate their rising sign and get an interpretation."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:57
+msgid "Selected:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:58
+msgid "Latitude:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:59
+msgid "Longitude:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:60
+msgid "GMT time offset:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "00"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "01"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "02"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "03"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "04"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "05"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "06"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "07"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "08"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "09"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "10"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "11"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "12"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "13"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "14"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "15"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "16"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "17"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "18"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "19"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "20"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "21"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "22"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "23"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "24"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "25"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "26"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "27"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "28"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "29"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "30"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "31"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "32"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "33"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "34"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "35"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "36"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "37"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "38"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "39"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "40"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "41"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "42"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "43"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "44"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "45"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "46"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "47"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "48"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "49"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "50"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "51"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "52"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "53"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "54"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "55"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "56"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "57"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "58"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:109
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:446
+msgid "59"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:193
+#, php-format
+msgid "%s Rising"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:200
+msgid "Ascendant: "
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:230
+msgid "The date of birth you entered is not valid."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:235
+msgid "Month is empty."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:239
+msgid "Day of birth is empty."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:243
+msgid "Birth City is empty."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:250
+#, php-format
+msgid "Please enter a year between 1900 and %s."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:255
+msgid "Birth hour must be between 1 and 12."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:260
+msgid "Birth minute must be between 0 and 59."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:265
+msgid ""
+"Birth City is empty. After choosing a city, please wait 1 second before "
+"clicking Submit."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:269
+msgid "Please choose a.m. or p.m. for the birth time."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:273
+msgid "Latitude cannot be a only a dash."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:275
+msgid ""
+"Latitude must be a number, and may include a negative sign and decimal point "
+"like: -80.5"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:280
+msgid "Longitude cannot be a only a dash."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:282
+msgid ""
+"Longitude must be a number, and may include a negative sign and decimal "
+"point like: -80.5"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:288
+msgid "Error! The following error(s) occurred"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:288
+msgid "Please re-enter your birth data. Thank you."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:360
+msgid "Something is wrong..."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "Birth Date:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "Month:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "January"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "February"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "March"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "April"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "May"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "June"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "July"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "August"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "September"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "October"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "November"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "December"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:400
+msgid "Day:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "1"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "2"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "3"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "4"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "5"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "6"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "7"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "8"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:404
+msgid "9"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:412
+msgid "Year:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1900"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1901"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1902"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1903"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1904"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1905"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1906"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1907"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1908"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1909"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1910"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1911"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1912"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1913"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1914"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1915"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1916"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1917"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1918"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1919"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1920"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1921"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1922"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1923"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1924"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1925"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1926"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1927"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1928"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1929"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1930"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1931"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1932"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1933"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1934"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1935"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1936"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1937"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1938"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1939"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1940"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1941"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1942"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1943"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1944"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1945"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1946"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1947"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1948"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1949"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1950"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1951"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1952"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1953"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1954"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1955"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1956"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1957"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1958"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1959"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1960"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1961"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1962"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1963"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1964"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1965"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1966"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1967"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1968"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1969"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1970"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1971"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1972"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1973"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1974"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1975"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1976"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1977"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1978"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1979"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1980"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1981"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1982"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1983"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1984"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1985"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1986"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1987"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1988"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1989"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1990"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1991"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1992"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1993"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1994"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1995"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1996"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1997"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1998"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "1999"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2000"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2001"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2002"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2003"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2004"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2005"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2006"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2007"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2008"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2009"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2010"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2011"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2012"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2013"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2014"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:418
+msgid "2015"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:430
+msgid "Exact Birth Time:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:457
+msgid "a.m."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:458
+msgid "p.m."
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:461
+msgid "Birth City:"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:462
+msgid "No City Selected!"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:468
+msgid "Calculate Time Offset"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:468
+msgid "Submit"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:471
+msgid "Back To Rising Sign Calculator"
+msgstr ""
+
+#: C:\Users\Isabel\Documents\My Web
+#: Sites\chema\wp-content\plugins\rising-sign-calculator/includes/rsc-widget.php:503
+msgid "Title:"
+msgstr ""

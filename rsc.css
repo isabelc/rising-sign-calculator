@@ -1,0 +1,115 @@
+﻿#risingreport h3 {clear: both;padding: 19px 3px 19px 72px;}
+#risingreport h3.aries {background: url(images/aries.png) no-repeat left;}
+#risingreport h3.taurus {background: url(images/taurus.png) no-repeat left;}
+#risingreport h3.gemini {background: url(images/gemini.png) no-repeat left;}
+#risingreport h3.cancer {background: url(images/cancer.png) no-repeat left;}
+#risingreport h3.leo {background: url(images/leo.png) no-repeat left;}
+#risingreport h3.virgo {background: url(images/virgo.png) no-repeat left;}
+#risingreport h3.libra {background: url(images/libra.png) no-repeat left;}
+#risingreport h3.scorpio {background: url(images/scorpio.png) no-repeat left;}
+#risingreport h3.sagittarius {background: url(images/sagittarius.png) no-repeat left;}
+#risingreport h3.capricorn {background: url(images/capricorn.png) no-repeat left;}
+#risingreport h3.aquarius {background: url(images/aquarius.png) no-repeat left;}
+#risingreport h3.pisces {background: url(images/pisces.png) no-repeat left;}
+#risingreport {
+	width:90%;
+	max-width:300px;
+	margin:1em auto;
+	font-size:100%;
+	line-height: 1.5em;
+	display:block;
+	display:none; /*for ajax */
+}
+#orderform {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#risingreport img, 
+#content #risingreport img {
+	float:none;
+	border:0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#risingreport p {
+    display: block;
+    clear: both;
+    margin: 0;
+	padding: 0 8px 1.5em 8px;
+}
+#risingreport .centr {
+	text-align:center;
+}
+
+#rsc-error {
+	color:red;
+}
+#rscform #ampm, #rscform #hour, #rscform #minute{margin-bottom:6px;}
+/* TwentyFourteen compat */
+.entry-content .widget #risingreport a,
+.entry-content .widget #rscform a {
+    color: #000;
+}
+.entry-content .widget_rsc_widget input#city{
+    background-color:transparent;
+    border-color: #96a6c5;
+    color:inherit;
+}
+/* autocomplete */
+.ui-autocomplete-loading {
+        background: white url('images/ui-anim_16x16.gif') no-repeat right center;
+}
+.widget_rsc_widget #city {
+    width: 90%;
+    max-width: 300px; }
+.widget_rsc_widget #log {
+	border:0;margin:1em 0;color:#339933;
+}
+.widget_rsc_widget #newlog1, #offsetwrap {
+	display:none;
+}
+.widget_rsc_widget #newlog1 {
+	color:#339933;
+}
+.widget_rsc_widget #newlog1 input, .widget_rsc_widget #gmt1label, .widget_rsc_widget input#offset_geo {
+    font-family: Verdana,Geneva,Tahoma,Arial,sans-serif;
+    background-color:transparent;
+	color:#339933;
+    font-size: 13px;border:0;
+}
+
+.widget_rsc_widget #newlog1 input#place1 {
+    width: 100%;
+}
+.widget_rsc_widget .ui-widget-content {
+    border: 0;
+}
+.widget_rsc_widget input, .widget_rsc_widget select, #fetchOffset{border: thin #96a6c5 solid;padding: 5px;
+    border-radius: 4px;
+}
+#fetchOffset, #fetchFields {
+	margin:0.6em auto;padding:0.8em;cursor:pointer;
+}
+
+.widget_rsc_widget #gmt1label, .widget_rsc_widget input#offset_geo {
+font-weight:bold;
+}
+.widget_rsc_widget #hour, .widget_rsc_widget #minute, .widget_rsc_widget #month, .widget_rsc_widget #day {margin-right:.6em;}
+.widget_rsc_widget .ui-widget {font-size: 0.9em !important;}
+.widget_rsc_widget #month, .widget_rsc_widget #day, .widget_rsc_widget #year {margin-top:6px;}
+.widget_rsc_widget .ui-widget {font-size: 0.9em !important;}
+.widget_rsc_widget #lat1label, .widget_rsc_widget #lng1label {font-size:.9em;}
+
+/* end autocomplete */
+
+#orderform label{display:block;}
+#lat1label, #lng1label, #gmt1label {display:inline;}
+#long_decimal_1, #lat_decimal_1, #offset_geo {width:40%;}
+ #orderform #newlog1 label#city1label {	display:block;}
+@media screen and (max-device-width: 568px) {
+	#risingreport {
+		width:100%;max-width:100%;display:block;
+	}
+}
