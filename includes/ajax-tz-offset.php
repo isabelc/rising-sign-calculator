@@ -1,9 +1,9 @@
 <?php
 /**
- * Calculate timezone offset and output back into form fields
+ * Calculate timezone offset and send back to form fields
  * @author Isabel Castillo
  * 
- * takes in time in 12-hour format and geo timezone id
+ * Takes in time in 12-hour format and geo timezone id
  */
 
 // post incoming form data: birthdate, birthtime, geo timezone id
@@ -15,8 +15,6 @@ $hour1 = $_POST['hour'];
 $minute1 = $_POST['minute'];
 $ampm1 = $_POST['ampm'];
 $zon1_geo = $_POST['zon1_geo'];
-
-// functions ready
 
 /** 
  * Get time offset from UTC for a designated datetime & zonename. Returns offset in hours.
@@ -35,10 +33,10 @@ function isa_timezone_offset($zonename, $birthdatetime) {
 }
 
 /**
- * convert just the hour part of a time from 12-hour format into 24-hour format
+ * Convert just the hour part of a time from 12-hour format into 24-hour format
  * @param $h12, hour in 12-hour format, 1 - 12
  * @param $meridiem, accepts only string "a.m." or "p.m."
- * returns string "00" or "1" - "12", or integer 13 - 23
+ * @return string "00" or "1" - "12", or integer 13 - 23
  */
 
 function hour12to24($h12, $meridiem) {
