@@ -345,7 +345,8 @@ sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_mi
 			      exec ("isabelse -edir$sweph -b$utdatenow -ut$utnow -p -eswe -house$long_decimal_1,$lat_decimal_1,c -fl -head", $out);
 					// output array index 0 - 11=houses, index 12=ASC, 13=MC, 14=ARMC, 15=vertex
 
-				$ascendantlong = $out[12] ? $out[12] : '';
+
+				$ascendantlong = empty($out[12]) ? '' : $out[12];
 
 				$final_interp = $this->isa_get_rising_sign($ascendantlong);
 
