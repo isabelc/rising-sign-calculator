@@ -423,4 +423,4 @@ if(!class_exists('Rising_Sign_Calculator')) {
 	}
 }
 $Rising_Sign_Calculator = new Rising_Sign_Calculator();
-add_shortcode( 'risingcalc', array( 'Rising_Sign_Calculator', 'risingcalc_shortcode' ) );
+add_shortcode( 'risingcalc', array( $Rising_Sign_Calculator, 'risingcalc_shortcode' ) );
