@@ -66,19 +66,6 @@ class rsc_widget extends WP_Widget {
 
 	}
 
-/** @todo delete 
- * Log my own debug messages
- */
-public function isa_log( $message ) {
-    if (WP_DEBUG === true) {
-        if ( is_array( $message) || is_object( $message ) ) {
-            error_log( print_r( $message, true ) );
-        } else {
-            error_log( $message );
-        }
-    }
-}
-	
 	/**
 	 * convert just the hour part of a time from 12-hour format into 24-hour format
 	 * @param $h12, hour in 12-hour format, 1 - 12

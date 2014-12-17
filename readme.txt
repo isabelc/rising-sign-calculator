@@ -19,9 +19,6 @@ Rising Sign Calculator uses the Swiss Ephemeris to get the longitude of the Asce
 [Documentation and Instruction Guides](http://isabelcastillo.com/docs/category/rising-sign-calculator-wordpress-plugin)
 
 
-If you purchased this software at http://isabelcastillo.com, you can get support at [http://isabelcastillo.com/support/](http://isabelcastillo.com/support/)
-
-
 == Installation ==
 
 1. Log in to you WordPress dashboard.
@@ -85,8 +82,8 @@ languages/rsc.pot`
 == Changelog ==
 
 = 1.3.2 =
-* Fix: Shortcode was called incorrectly.
-* Maintenance: Removed some PHP notices.
+* Fix: Shortcode was called incorrectly and generated a PHP notice.
+* Maintenance: Removed other PHP notices.
 * Maintenance: Updated plugin URI.
 
 = 1.3.1 =
