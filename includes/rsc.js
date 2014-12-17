@@ -21,7 +21,7 @@
 								data: {
 					                        lat: poplat,
 					                        lng: poplng,
-											username: "@todoyourusername"
+											username: "isabel"
 					                    },
 					
 								success: function( data ) {
@@ -54,7 +54,7 @@
 					style: "full",
 					maxRows: 12,
 					name_startsWith: request.term,
-					username: "@todoyourusername",
+					username: "isabel",// @todo
 					lang: isa_ajax_object.lang
                     },
                     success: function( data ) {
@@ -114,7 +114,7 @@
 						jQuery('#risingreport').show();
 		                	jQuery('#risinginterp').html( risingSignData.interp );
 						jQuery("#rscform").hide();
-						var targetOffset = $('#risingreport').offset().top - 200;
+						var targetOffset = jQuery('#risingreport').offset().top - 200;
 						jQuery('html,body').animate({scrollTop: targetOffset}, 0);
       				}
 				});

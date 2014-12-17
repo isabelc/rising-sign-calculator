@@ -27,6 +27,7 @@ class rsc_widget extends WP_Widget {
 
 		wp_register_style('rsc', plugins_url('/rsc.css', dirname(__FILE__)));
 		wp_enqueue_style('rsc');
+		
 		wp_register_style('rsc-jquery-ui', 'http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css');
 		wp_enqueue_style('rsc-jquery-ui');
 
@@ -43,27 +44,40 @@ class rsc_widget extends WP_Widget {
 		wp_register_script('rsc', plugins_url('rsc.js', __FILE__), array('rsc-jquery-ui', 'jquery'));
 		wp_enqueue_script('rsc');
 
-			$wplang = WPLANG;
-			
-			$langcode = substr( $wplang, 0, 2 ); // take 2 letter lang code only
+		// get language code to tranlsate Autocomplete cities list if needed
 
-			// if wp lang returns something other than 'en', then set the $city_list_lang
-			
-			$city_list_lang = ( 'en' != $langcode ) ? $langcode : '';
+		$wplang = get_locale();
+		$langcode = substr( $wplang, 0, 2 ); // take 2 letter lang code only
 
-			$params = array(
-				'tzoffset' => plugins_url('ajax-tz-offset.php', __FILE__),
-				'ajaxurl' => admin_url( 'admin-ajax.php' ),
-				'sele' => __('Selected:', 'rsc'),
-				'lati' => __('Latitude:', 'rsc'),
-				'longit' => __('Longitude:', 'rsc'),
-				'gmt' => __('GMT time offset:', 'rsc'),
-				'lang' => $city_list_lang
-			);
-			wp_localize_script( 'rsc', 'isa_ajax_object', $params );
+		// if wp lang returns something other than 'en', then set the $city_list_lang
+		
+		$city_list_lang = ( 'en' != $langcode ) ? $langcode : '';
+
+		$params = array(
+			'tzoffset' => plugins_url('ajax-tz-offset.php', __FILE__),
+			'ajaxurl' => admin_url( 'admin-ajax.php' ),
+			'sele' => __('Selected:', 'rsc'),
+			'lati' => __('Latitude:', 'rsc'),
+			'longit' => __('Longitude:', 'rsc'),
+			'gmt' => __('GMT time offset:', 'rsc'),
+			'lang' => $city_list_lang
+		);
+		wp_localize_script( 'rsc', 'isa_ajax_object', $params );
 
 	}
 
+/** @todo delete 
+ * Log my own debug messages
+ */
+public function isa_log( $message ) {
+    if (WP_DEBUG === true) {
+        if ( is_array( $message) || is_object( $message ) ) {
+            error_log( print_r( $message, true ) );
+        } else {
+            error_log( $message );
+        }
+    }
+}
 	
 	/**
 	 * convert just the hour part of a time from 12-hour format into 24-hour format
@@ -74,15 +88,15 @@ class rsc_widget extends WP_Widget {
 	 */
 		
 	public function hour12to24($h12, $meridiem) {
-		 		if(($meridiem == 'a.m.') && ($h12 == '12')) {
-					$mh = '00';
-				} elseif( (($meridiem == 'a.m.') && ($h12 != '12')) || (($meridiem == 'p.m.') && ($h12 == '12')) ) {
-					$mh = $h12;
-				} elseif( ($meridiem == 'p.m.') && in_array($h12, array('1','2','3','4','5','6','7','8','9','10','11')) )  {
-					$avc = (int) $h12;// conver to integer, then add 12.
-					$mh = $avc + 12;
-				}
-				return $mh;// military hour
+ 		if(($meridiem == 'a.m.') && ($h12 == '12')) {
+			$mh = '00';
+		} elseif( (($meridiem == 'a.m.') && ($h12 != '12')) || (($meridiem == 'p.m.') && ($h12 == '12')) ) {
+				$mh = $h12;
+		} elseif( ($meridiem == 'p.m.') && in_array($h12, array('1','2','3','4','5','6','7','8','9','10','11')) )  {
+			$avc = (int) $h12;// conver to integer, then add 12.
+			$mh = $avc + 12;
+		}
+		return $mh;// military hour
 	}
 
 	
@@ -119,92 +133,96 @@ class rsc_widget extends WP_Widget {
 
 
 		// @todo add default fallback interps
-		$isa_rising_signs = array(
-					array( 
-						'id' => 'aries',
-						'name' => __( 'Aries', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'taurus',
-						'name' => __( 'Taurus', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'gemini',
-						'name' => __( 'Gemini', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'cancer',
-						'name' => __( 'Cancer', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'leo',
-						'name' => __( 'Leo', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'virgo',
-						'name' => __( 'Virgo', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'libra',
-						'name' => __( 'Libra', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'scorpio',
-						'name' => __( 'Scorpio', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'sagittarius',
-						'name' => __( 'Sagittarius', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'capricorn',
-						'name' => __( 'Capricorn', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'aquarius',
-						'name' => __( 'Aquarius', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-					array( 
-						'id' => 'pisces',
-						'name' => __( 'Pisces', 'rsc' ),
-						'interp' => __( '', 'rsc' )
-					),
-				);
+		// @todo issue in which any existing custom interps in admin may be deleted upon re-install.
 
-			foreach($isa_rising_signs as $isa_rising_sign) {
+		$isa_rising_signs = array(
+			array( 
+				'id' => 'aries',
+				'name' => __( 'Aries', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'taurus',
+				'name' => __( 'Taurus', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'gemini',
+				'name' => __( 'Gemini', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'cancer',
+				'name' => __( 'Cancer', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'leo',
+				'name' => __( 'Leo', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'virgo',
+				'name' => __( 'Virgo', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'libra',
+				'name' => __( 'Libra', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'scorpio',
+				'name' => __( 'Scorpio', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'sagittarius',
+				'name' => __( 'Sagittarius', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'capricorn',
+				'name' => __( 'Capricorn', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'aquarius',
+				'name' => __( 'Aquarius', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+			array( 
+				'id' => 'pisces',
+				'name' => __( 'Pisces', 'rsc' ),
+				'interp' => __( '', 'rsc' )
+			),
+		);
+
+		foreach($isa_rising_signs as $isa_rising_sign) {
 	
-				$options = get_option('rsc_options');
+			$options = get_option('rsc_options');
 				// if custom interp is entered, use it, else use default
 
-				$interp = ( isset( $options[$isa_rising_sign['id']] ) && !empty($options[$isa_rising_sign['id']]) ) ? 
-							$options[$isa_rising_sign['id']] : $isa_rising_sign['interp'];
+			$interp = ( isset( $options[$isa_rising_sign['id']] ) && !empty($options[$isa_rising_sign['id']]) ) ? 
+				$options[$isa_rising_sign['id']] : $isa_rising_sign['interp'];
 		
-				$isa_rising_interp[] = '<h3 class="' . $isa_rising_sign['id'] . '">' . sprintf( __( '%s Rising', 'rsc' ) , $isa_rising_sign['name'] ) . '</h3><p>' . $interp . '</p>';
-				$rname[] = $isa_rising_sign['name'];
+			$isa_rising_interp[] = '<h3 class="' . $isa_rising_sign['id'] . '">' . sprintf( __( '%s Rising', 'rsc' ) , $isa_rising_sign['name'] ) . '</h3><p>' . $interp . '</p>';
+			$rname[] = $isa_rising_sign['name'];
 
-			}
+		}
 //			$prepout = $isa_rising_interp[$sign_num] . '<p>' . __( 'Ascendant: ', 'rsc' ) . $rname[$sign_num] . " " . $deg . "&#176; " . $min . "' " . $full_sec . '"</p>';// @test replace
 
 
-			$prepout = $isa_rising_interp[$sign_num] . '<p>' . __( 'Ascendant: ', 'rsc' ) . 
+		$prepout = $isa_rising_interp[$sign_num] . '<p>' . __( 'Ascendant: ', 'rsc' ) . 
 sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_min, $localized_full_sec) . '</p>';// @test replace
 
-			return $prepout;
+		return $prepout;
 	}
-	
-	
-	/** ajax callback */
+
+	/**
+	* ajax callback. Process form
+	*
+	*/
 
 	public function rsc_interp_callback() {
 		global $wpdb;
@@ -223,69 +241,62 @@ sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_mi
 
 		$my_error = '';
 
-		    if ( ($month != "") And ($day != "") And ($year != "") )
-		    {
-		      if (!$validdate = checkdate($month, $day, $year))
-		      {
-		        $my_error .= __('The date of birth you entered is not valid.', 'rsc') . '<br><br>';
-		      }
-		    }
+		if ( ($month != "") And ($day != "") And ($year != "") ) {
+			if (!$validdate = checkdate($month, $day, $year)) {
+				$my_error .= __('The date of birth you entered is not valid.', 'rsc') . '<br><br>';
+			}
+		}
 			
-			if( empty($month) ) {
-		      $my_error .= __('Month is empty.', 'rsc') . '<br><br>';
-			}
+		if( empty($month) ) {
+			$my_error .= __('Month is empty.', 'rsc') . '<br><br>';
+		}
 
-			if( empty($day) ) {
-		      $my_error .= __('Day of birth is empty.', 'rsc') . '<br><br>';
-			}
+		if( empty($day) ) {
+			$my_error .= __('Day of birth is empty.', 'rsc') . '<br><br>';
+		}
 
-			if( empty($place1) || empty($lat_decimal_1) || empty($long_decimal_1) ) {
-		      $my_error .= __('Birth City is empty.', 'rsc') . '<br><br>';
-			}
+		if( empty($place1) || empty($lat_decimal_1) || empty($long_decimal_1) ) {
+			$my_error .= __('Birth City is empty.', 'rsc') . '<br><br>';
+		}
 
-			$nextYr = date("Y")+1;
-		    if (($year < 1900) Or ($year > $nextYr))
-
-		    {
-				$my_error .= sprintf(__('Please enter a year between 1900 and %s.', 'rsc'), $nextYr) . '<br><br>';
-		    }
+		$nextYr = date("Y")+1;
+		if (($year < 1900) Or ($year > $nextYr)) {
+			$my_error .= sprintf(__('Please enter a year between 1900 and %s.', 'rsc'), $nextYr) . '<br><br>';
+		}
 		
-		    if (($hour < 1) Or ($hour > 12) Or empty($hour))
-		    {
-		      $my_error .= __('Birth hour must be between 1 and 12.', 'rsc') . '<br><br>';
-		    }
+		if (($hour < 1) Or ($hour > 12) Or empty($hour)) {
+			$my_error .= __('Birth hour must be between 1 and 12.', 'rsc') . '<br><br>';
+		}
 		
-		    if (($minute < 0) Or ($minute > 59) Or empty($minute))
-		    {
-		      $my_error .= __('Birth minute must be between 0 and 59.', 'rsc') . '<br><br>';
-		    }
+		if (($minute < 0) Or ($minute > 59) Or empty($minute)) {
+			$my_error .= __('Birth minute must be between 0 and 59.', 'rsc') . '<br><br>';
+		}
 		
-			$tz_length = strlen((string)$timezone);
-			if( $tz_length > 6 ) {
-		      $my_error .= __('Birth City is empty. After choosing a city, please wait 1 second before clicking Submit.', 'rsc') . '<br><br>';
-			}
+		$tz_length = strlen((string)$timezone);
+		
+		if( $tz_length > 6 ) {
+			$my_error .= __('Birth City is empty. After choosing a city, please wait 1 second before clicking Submit.', 'rsc') . '<br><br>';
+		}
 
-			if( empty($ampm) ) {
-		      $my_error .= __('Please choose a.m. or p.m. for the birth time.', 'rsc') . '<br><br>';
-			}
+		if( empty($ampm) ) {
+			$my_error .= __('Please choose a.m. or p.m. for the birth time.', 'rsc') . '<br><br>';
+		}
 
-			if( $lat_decimal_1 == "-" ) {
-		      $my_error .= __('Latitude cannot be a only a dash.', 'rsc') . '<br><br>';
-			} elseif( !empty($lat_decimal_1) && !is_numeric($lat_decimal_1) ) {
-		      $my_error .= __('Latitude must be a number, and may include a negative sign and decimal point like: -80.5', 'rsc') . '<br><br>';
-			}
+		if( $lat_decimal_1 == "-" ) {
+			$my_error .= __('Latitude cannot be a only a dash.', 'rsc') . '<br><br>';
+		} elseif( !empty($lat_decimal_1) && !is_numeric($lat_decimal_1) ) {
+			$my_error .= __('Latitude must be a number, and may include a negative sign and decimal point like: -80.5', 'rsc') . '<br><br>';
+		}
 
-
-			if( $long_decimal_1 == "-" ) {
-		      $my_error .= __('Longitude cannot be a only a dash.', 'rsc') . '<br><br>';
-			} elseif( !empty($long_decimal_1) && !is_numeric($long_decimal_1) ) {
-		      $my_error .= __('Longitude must be a number, and may include a negative sign and decimal point like: -80.5', 'rsc') . '<br><br>';
-			}
-
+		if( $long_decimal_1 == "-" ) {
+			$my_error .= __('Longitude cannot be a only a dash.', 'rsc') . '<br><br>';
+		} elseif( !empty($long_decimal_1) && !is_numeric($long_decimal_1) ) {
+			$my_error .= __('Longitude must be a number, and may include a negative sign and decimal point like: -80.5', 'rsc') . '<br><br>';
+		}
 
 		if($my_error) { 
 				
-				$error_msg = '<p id="rsc-error">' . __('Error! The following error(s) occurred', 'rsc') . ':</p><p>' . $my_error . __('Please re-enter your birth data. Thank you.', 'rsc'). '</p>';
+			$error_msg = '<p id="rsc-error">' . __('Error! The following error(s) occurred', 'rsc') . ':</p><p>' . $my_error . __('Please re-enter your birth data. Thank you.', 'rsc'). '</p>';
 
 		} else {
 		
@@ -295,60 +306,52 @@ sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_mi
 	
 			// hour1 posted incoming from order form is 12 hour format, but i need it in 24 hour here
 			$hour1_in24 = $this->hour12to24($hour, $ampm);
-			
-	      //assign birth data from form to local variables
-	      $inmonth = intval($month);
-	      $inday = $day;
-	      $inyear = $year;
-	      $inhours = $hour1_in24;
-	      $inmins = $minute;
-	      $insecs = "0";
-			
-			
-	      // adjust date and time for minus hour due to time zone taking the hour negative
-			
-		      $intz = $timezone;
-			
-		      if ($intz >= 0)
-		      {
-		        $whole = floor($intz);
-		        $fraction = $intz - floor($intz);
-		      }
-		      else
-		      {
-		        $whole = ceil($intz);
-		        $fraction = $intz - ceil($intz);
-		      }
-			
-		      $inhours = $inhours - $whole;
-		      $inmins = $inmins - ($fraction * 60);
-			
-		      if ($inyear >= 2000)
-		      {
-		        $utdatenow = strftime("%d.%m.20%y", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
-		      }
-		      else
-		      {
-		        $utdatenow = strftime("%d.%m.19%y", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
-		      }
-			
-		      $utnow = strftime("%H:%M:%S", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
 
-
-					$sweph = plugin_dir_path( dirname(__FILE__) ) . 'sweph'; // set path to isabelse
-					unset($PATH,$out,$longitude);
-					$PATH = '';// WordPress is picky picky
-
-					putenv("PATH=$PATH:$sweph");
+			//assign birth data from form to local variables
+			$inmonth = intval($month);
+			$inday = $day;
+			$inyear = $year;
+			$inhours = $hour1_in24;
+			$inmins = $minute;
+			$insecs = "0";
 			
-			      // get CAMPANUS houses
-			      exec ("isabelse -edir$sweph -b$utdatenow -ut$utnow -p -eswe -house$long_decimal_1,$lat_decimal_1,c -fl -head", $out);
-					// output array index 0 - 11=houses, index 12=ASC, 13=MC, 14=ARMC, 15=vertex
+			
+			// adjust date and time for minus hour due to time zone taking the hour negative
+			
+			$intz = $timezone;
+			
+			if ($intz >= 0) {
+				$whole = floor($intz);
+				$fraction = $intz - floor($intz);
+			} else {
+				$whole = ceil($intz);
+				$fraction = $intz - ceil($intz);
+			}
+			
+			$inhours = $inhours - $whole;
+			$inmins = $inmins - ($fraction * 60);
+			
+			if ($inyear >= 2000) {
+				$utdatenow = strftime("%d.%m.20%y", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
+			} else {
+				$utdatenow = strftime("%d.%m.19%y", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
+			}
+			
+			$utnow = strftime("%H:%M:%S", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
 
+			$sweph = RSC_PLUGIN_DIR . 'sweph'; // set path to isabelse
+			unset($PATH,$out,$longitude);
+			$PATH = '';// WordPress is picky picky
+			putenv("PATH=$PATH:$sweph");
 
-				$ascendantlong = empty($out[12]) ? '' : $out[12];
+			// get CAMPANUS houses
+			exec ("isabelse -edir$sweph -b$utdatenow -ut$utnow -p -eswe -house$long_decimal_1,$lat_decimal_1,c -fl -head", $out);
 
-				$final_interp = $this->isa_get_rising_sign($ascendantlong);
+			// output array index 0 - 11=houses, index 12=ASC, 13=MC, 14=ARMC, 15=vertex
+
+			$ascendantlong = empty($out[12]) ? '' : $out[12];
+
+			$final_interp = $this->isa_get_rising_sign($ascendantlong);
 
 		} // end else no errors, done processing the form
 						
@@ -357,7 +360,7 @@ sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_mi
 			$output = $error_msg;
 
 		} else {
-			
+
 			$output = ($final_interp) ? $final_interp : __('Something is wrong...', 'rsc');
 
 		}

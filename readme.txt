@@ -85,6 +85,8 @@ languages/rsc.pot`
 == Changelog ==
 
 = 1.3.2 =
+* Fix: Shortcode was called incorrectly.
+* Maintenance: Removed some PHP notices.
 * Maintenance: Updated plugin URI.
 
 = 1.3.1 =
