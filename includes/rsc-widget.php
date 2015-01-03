@@ -25,7 +25,7 @@ class rsc_widget extends WP_Widget {
 
 	public function enqueue() {
 
-		wp_register_style('rsc', plugins_url('/rsc.css', dirname(__FILE__)));
+		wp_register_style('rsc', plugins_url('rsc.css', dirname(__FILE__)));
 		wp_enqueue_style('rsc');
 		
 		wp_register_style('rsc-jquery-ui', 'http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css');
