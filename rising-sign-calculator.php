@@ -3,7 +3,7 @@
 Plugin Name: Rising Sign Calculator
 Plugin URI: http://isabelcastillo.com/docs/category/rising-sign-calculator-wordpress-plugin
 Description: Let visitors calculate their rising sign by inputting date and time of birth. Option to add your own custom interpretations.
-Version: 1.3.3
+Version: 1.3.3-beta-1.1
 Author: Isabel Castillo
 Author URI: http://isabelcastillo.com
 License: GPL2
