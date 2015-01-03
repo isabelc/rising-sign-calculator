@@ -326,13 +326,13 @@ sprintf('%s %s&#176; %s\' %s', $rname[$sign_num], $localized_deg , $localized_mi
 			
 			$utnow = strftime("%H:%M:%S", mktime($inhours, $inmins, $insecs, $inmonth, $inday, $inyear));
 
-			$sweph = RSC_PLUGIN_DIR . 'sweph'; // set path to isabelse
+			$sweph = RSC_PLUGIN_DIR . 'sweph'; // set path to swetest
 			unset($PATH,$out,$longitude);
 			$PATH = '';// WordPress is picky picky
 			putenv("PATH=$PATH:$sweph");
 
 			// get CAMPANUS houses
-			exec ("isabelse -edir$sweph -b$utdatenow -ut$utnow -p -eswe -house$long_decimal_1,$lat_decimal_1,c -fl -head", $out);
+			exec ("swetest -edir$sweph -b$utdatenow -ut$utnow -p -eswe -house$long_decimal_1,$lat_decimal_1,c -fl -head", $out);
 
 			// output array index 0 - 11=houses, index 12=ASC, 13=MC, 14=ARMC, 15=vertex
 

@@ -3,14 +3,14 @@
 Plugin Name: Rising Sign Calculator
 Plugin URI: http://isabelcastillo.com/docs/category/rising-sign-calculator-wordpress-plugin
 Description: Let visitors calculate their rising sign by inputting date and time of birth. Option to add your own custom interpretations.
-Version: 1.3.2
+Version: 1.3.3
 Author: Isabel Castillo
 Author URI: http://isabelcastillo.com
 License: GPL2
 Text Domain: rsc
 Domain Path: languages
 
-Copyright 2013 - 2014 Isabel Castillo
+Copyright 2013 - 2015 Isabel Castillo
 
 This file is part of Rising Sign Calculator plugin.
 
@@ -392,10 +392,10 @@ if(!class_exists('Rising_Sign_Calculator')) {
 			
 			$wantedPerms = 0755;
 
-			$actualPerms = substr(sprintf('%o', fileperms(RSC_PLUGIN_DIR . 'sweph/isabelse')), -4);
+			$actualPerms = substr(sprintf('%o', fileperms(RSC_PLUGIN_DIR . 'sweph/swetest')), -4);
 
  			if($actualPerms != $wantedPerms) {
-				chmod(RSC_PLUGIN_DIR . 'sweph/isabelse', $wantedPerms);
+				chmod(RSC_PLUGIN_DIR . 'sweph/swetest', $wantedPerms);
 			}
 
 		}

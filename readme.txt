@@ -21,7 +21,7 @@ Rising Sign Calculator uses the Swiss Ephemeris to get the longitude of the Asce
 
 == Installation ==
 
-1. Log in to you WordPress dashboard.
+1. Log in to your WordPress dashboard.
 2. Go to 'Plugins -> Add New'
 3. Click 'Upload', then upload the plugin file that you purchased.
 4. Activate the plugin by clicking "Activate".
@@ -42,44 +42,10 @@ WordPress 3.3.1+,
 PHP 5.x+,  
 
 
-
-**Included Files**
-
-`rising-sign-calculator.php
-rsc.css
-dmf-widget.php
-license.txt
-readme.txt
-
-images/aquarius.png
-images/aries.png
-images/cancer.png
-images/capricorn.png
-images/gemini.png
-images/leo.png
-images/libra.png
-images/pisces.png
-images/sagittarius.png
-images/scorpio.png
-images/taurus.png
-images/virgo.png
-images/ui-anim_16x16.gif
-
-includes/ajax-tz-offset.php
-includes/EDD_SL_Plugin_Updater.php
-includes/rsc.js
-includes/rsc-widget.php
-includes/rtl.css
-
-sweph/isabelse
-sweph/sepl_18.se1
-
-languages/rsc-es_ES.mo
-languages/rsc-es_ES.po
-languages/rsc.pot`
-
-
 == Changelog ==
+
+= 1.3.3 =
+* Tweak: Updated the binary file for the ephemeris and changed the filename from isabelse to swetest.
 
 = 1.3.2 =
 * Fix: Shortcode was called incorrectly and generated a PHP notice.
