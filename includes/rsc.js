@@ -21,7 +21,7 @@
 								data: {
 					                        lat: poplat,
 					                        lng: poplng,
-											username: "isabel"
+											username: "username"
 					                    },
 					
 								success: function( data ) {
@@ -54,7 +54,7 @@
 					style: "full",
 					maxRows: 12,
 					name_startsWith: request.term,
-					username: "isabel",// @todo
+					username: "username",// @todo
 					lang: isa_ajax_object.lang
                     },
                     success: function( data ) {
