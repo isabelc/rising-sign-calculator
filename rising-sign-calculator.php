@@ -173,8 +173,8 @@ if(!class_exists('Rising_Sign_Calculator')) {
 					'license' 	=> $license, 
 					'item_name' => urlencode( RISING_SIGN_CALC_DLNAME )
 				);
-				
-				$response = wp_remote_get( add_query_arg( $api_params, RSC_ISABEL_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+				$url = esc_url_raw( add_query_arg( $api_params, RSC_ISABEL_STORE_URL ) );
+				$response = wp_remote_get( $url, array( 'timeout' => 15, 'sslverify' => false ) );
 		
 				if ( is_wp_error( $response ) )
 					return false;
@@ -204,8 +204,9 @@ if(!class_exists('Rising_Sign_Calculator')) {
 					'license' 	=> $license, 
 					'item_name' => urlencode( RISING_SIGN_CALC_DLNAME )
 				);
-				
-				$response = wp_remote_get( add_query_arg( $api_params, RSC_ISABEL_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+
+				$url = esc_url_raw( add_query_arg( $api_params, RSC_ISABEL_STORE_URL ) );
+				$response = wp_remote_get( $url, array( 'timeout' => 15, 'sslverify' => false ) );
 		
 				if ( is_wp_error( $response ) )
 					return false;
@@ -238,7 +239,8 @@ if(!class_exists('Rising_Sign_Calculator')) {
 					'item_name' => urlencode( RISING_SIGN_CALC_DLNAME )
 				);
 			
-				$response = wp_remote_get( add_query_arg( $api_params, RSC_ISABEL_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+				$url = esc_url_raw( add_query_arg( $api_params, RSC_ISABEL_STORE_URL ) );
+				$response = wp_remote_get( $url, array( 'timeout' => 15, 'sslverify' => false ) );
 			
 				if ( is_wp_error( $response ) )
 					return false;
